@@ -1,0 +1,122 @@
+<html lang="en">
+<head> 
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="dashboard.css">
+
+ 
+</head>
+
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">TO COMING</a>
+      </div>
+
+      <div class="navbar-collapse collapse" style="height: 1px;">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="wPage.html">Home</a></li>
+          <li><a href="wTodays.html">Todays</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Socials</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div id="photo" class="col-sm-3 col-md-2 addphoto sidebar"></div>
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="row">
+
+          <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+            simple collapse
+          </button>
+          <div id="demo" class="collapse in"><h2>Hey, welcome!</h2></div>
+
+                  
+        
+
+<div class="panel-group" id="September05">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#September05" href="#September052009">
+          Collapsible Group Item #1
+        </a>
+      </h4>
+    </div>
+    <div id="September052009" class="panel-collapse collapse in">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#September05" href="#September052008">
+          Collapsible Group Item #2
+        </a>
+      </h4>
+    </div>
+    <div id="September052008" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#September05" href="#September052007">
+          Collapsible Group Item #3
+        </a>
+      </h4>
+    </div>
+    <div id="September052007" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>  
+var aaa=['1.jpg','2.jpg','3.jpg'];  
+var count = 0;  
+function on_load(){        
+document.getElementById("photo").style.background="url("+aaa[count]+")";    
+if (++count == aaa.length)
+{      count = 0;    
+}  
+}  setInterval("on_load()",5000);  
+</script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
