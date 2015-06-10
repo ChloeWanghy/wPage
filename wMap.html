@@ -35,7 +35,7 @@
 
   </div>
   
-  <div id="map" align="center" style="width: 1900px; height: 900px;"></div>
+  <div id="map" align="center" style="width: 100%; height: 800px;"></div>
 
   <script type="text/javascript">
     // Define your locations: HTML content for the info window, latitude, longitude
@@ -44,14 +44,13 @@
       ['Sydney', -33.867080, 151.198464],
       ['Beijing', 39.962751, 116.360620],
       ['Dalian', 38.922025, 121.633344],
-      ['XiAn',34.275996, 108.947189],
       ['Changsha',28.195249, 113.012945],
+      ['XiAn',34.275996, 108.947189],
       ['XiaMen',24.484041, 118.093758],
       ['Wuyishan',27.757341, 118.029452],
       ['Fuzhou',26.077146, 119.292984],
       ['YanAn',36.584890, 109.489628],
       ['Cairns',-16.919996, 145.773762],
-      
       ['Canbera',-35.281948, 149.128591],
       ['Wuyuan',29.247717, 117.861770],
       ['Wuzhen',30.742514, 120.488314],
@@ -97,7 +96,7 @@
 
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 8,
-      center: new google.maps.LatLng(-37.92, 105.25),
+      center: new google.maps.LatLng(-37.92, 65.25),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       mapTypeControl: false,
       streetViewControl: false,
