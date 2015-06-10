@@ -1,5 +1,5 @@
 .addphoto{
-	background-image: url(1.jpg);
+	background-image: url("http://chloewanghy.github.io/wPage/images/1.jpg");
 	background-repeat: no-repeat;
 	background-size: auto,100%;
 	position: fixed;
@@ -17,4 +17,11 @@ h2{
 
 .pannel-heading{
 	background-color: #14f230 !important;	
+}
+
+.carousel{
+}
+.p{
+	font-size: 10px;
+	font-weight: 10;
 }
