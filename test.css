@@ -21,7 +21,12 @@ h2{
 .pannel-heading{
 	background-color: #14f230 !important;	
 }
-
+.navbar-inverse{
+    background-color: black;
+}
+.fa{
+    color: white;
+}
 .intro {
     display: table;
     width: 100%;
@@ -88,8 +93,8 @@ h2{
 .btn-circle:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
+    -webkit-animation-duration: 0.75s;
+    -moz-animation-duration: 0.75s;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
@@ -213,7 +218,7 @@ header .header-content .header-content-inner p {
 }
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
+    background: #fff;
     background: rgba(255,255,255,.2);
 }
 
