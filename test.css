@@ -5,7 +5,9 @@
 	position: fixed;
 	top: 0px;
 }
-
+a{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 h2{
 	text-align: center;
 	font-family: Monospace, Serif;
